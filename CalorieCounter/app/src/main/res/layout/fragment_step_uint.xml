@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/steptest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#c58c8c"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:id="@+id/imageTitle"
+            android:src="@drawable/bbg" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:id="@+id/textView2"
+            android:textSize="30dip"
+            android:textStyle="bold|italic"
+            android:textColor="#160505" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Today, you have taken"
+            android:id="@+id/StepLable"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="20dip"/>
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" 0 "
+            android:id="@+id/stepView"
+            android:layout_toRightOf="@+id/StepLable"
+            android:textColor="#c31414" />
+
+        <TextView
+            android:layout_marginTop="20dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Steps"
+            android:id="@+id/steps"
+            android:layout_toRightOf="@+id/stepView" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="10dip">
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/step" />
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add steps"
+                android:id="@+id/addstep" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End today step"
+                android:id="@+id/endstep" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/stepList"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

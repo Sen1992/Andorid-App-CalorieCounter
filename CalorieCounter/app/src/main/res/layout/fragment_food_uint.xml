@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal Type"
+        android:padding="5dip"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dip"
+        android:textStyle="bold|italic"
+        android:background="#c58c8c"
+        android:textColor="#160505" />
+
+    <TextView
+        android:layout_marginTop="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select your meal"
+        android:id="@+id/textView3"
+        android:textSize="25dip"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#902b81" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+">
+            <LinearLayout
+                android:id="@+id/drinkTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageDrink"
+                    android:src="@drawable/drink"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Drink"
+                    android:id="@+id/drinktv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/drinktip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mealTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageMeal"
+                    android:src="@drawable/breakfast"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Meal"
+                    android:id="@+id/Mealtv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/MealTip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meatTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageMeat"
+                    android:src="@drawable/meat"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Meat"
+                    android:id="@+id/Meattv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/MeatTip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/snackTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageSnack"
+                    android:src="@drawable/snack"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Snack"
+                    android:id="@+id/Snacktv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/SnackTip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/breadTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageBread"
+                    android:src="@drawable/bread"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Bread"
+                    android:id="@+id/Breadtv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/BreadTip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cakeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageCake"
+                    android:src="@drawable/cake"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Cake"
+                    android:id="@+id/Caketv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/CakeTip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fruitTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageFruit"
+                    android:src="@drawable/fruit"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Fruit"
+                    android:id="@+id/fruittv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/fruittip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/veggiesTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageVeggies"
+                    android:src="@drawable/veggie"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Veggies"
+                    android:id="@+id/Veggiestv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/veggiestip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/otherTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/background_login_div">
+
+                <ImageView
+                    android:layout_width="@dimen/imageSize"
+                    android:layout_height="@dimen/imageSize"
+                    android:id="@+id/imageother"
+                    android:src="@drawable/other"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/imageSize"
+                    android:text="Other"
+                    android:id="@+id/othertv"
+                    android:gravity="center"
+                    android:textSize="30dip"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="25dip"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/othertip"
+                    android:src="@drawable/tip"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

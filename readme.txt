@@ -1,0 +1,1 @@
+	This file including five files, CalorieCounter directory is Andriod source code, Calorie, CalorieCounter directory is Server database(Mysql) file deployed in GlashFish 4.1.1, database.sql is database code supported by Mysql. The document detailedly describe the software.

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CalorieCounter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="inches">Height in Inches:</string>
+    <string name="weight">Weight in KG:</string>
+    <string name="level">Activity Level:</string>
+    <string name="age">Age:</string>
+    <string name="gender">Gender:</string>
+    <string name="welcome">Welcome to Calorie Counter</string>
+    <string name="newUser">Don\'t have an account?</string>
+    <string name="signup">Sign up</string>
+    <string name="name">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="appName">Calorie Counter</string>
+    <string name="developer">Developed by Sen</string>
+    <string name="description">This app aims at helping people live healthy life by tracking diet and exercise in one day.You can enjoy the functions by click the navigation.</string>
+    <string name="username">Username:</string>
+    <string name="passwordRegister">Password:</string>
+    <string name="stepPerMile">StepPerMile:</string>
+    <string name="namelabel">Name:</string>
+    <string name="hint">normal value is 2200</string>
+    <string name="submit">submit</string>
+    <string name="modify">Modify</string>
+    <string-array name="level_array">
+        <item>1(sedentary)</item>
+        <item>2(sports 1-3 days/week)</item>
+        <item>3(sports 3-5 days/week)</item>
+        <item>4(sports 6-7 days/week)</item>
+        <item>5(very hard sports/week)</item>
+    </string-array>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_food_view">FoodView</string>
+    <string name="title_activity_map">MapActivity</string>
+</resources>

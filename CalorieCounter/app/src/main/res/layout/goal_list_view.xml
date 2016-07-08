@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:gravity="right"
+        android:id="@+id/timelistview"
+        android:textColor="#31dfcd"
+        android:textSize="25dip" />
+    <TextView
+        android:layout_marginLeft="20dip"
+        android:gravity="left"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/goallistview"
+        android:textColor="#31dfcd"
+        android:textSize="25dip" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">10dip</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="imageSize">60dip</dimen>
+    <dimen name="reportMargin">10dip</dimen>
+    <dimen name="remindingHeight">30dip</dimen>
+    <dimen name="TrackListPadding">10dip</dimen>
+    <dimen name="Innermargin">5dip</dimen>
+    <dimen name="margin1">30dip</dimen>
+    <dimen name="iconSize">50dip</dimen>
+</resources>
